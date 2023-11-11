@@ -159,6 +159,7 @@
 .aboutdiv {
     width: 100%;
     height: 100%;
+    margin-top: 80px;
 }
 
 .aboutdiv h1 {
@@ -307,11 +308,94 @@ font-size: 17px;
 }
 .reservation{
     width: auto;
-    height: 400px;
-    background-color: #9730304b;
+    height: 500px;
+    /* background-color: #9730304b; */
+    margin-top: 80px;
+  
    
 }
-.reservation.reservation-img{
-  margin-left: 500px ;
+.reservetable{
+    display: flex;
+    margin-left: 70px;
 }
-.reservation .reservation-form{}
+.reservation.reservation-img{
+    
+}
+.reservation .reservation-form{
+    height: 390px;
+    width: 850px;
+    background-color: rgb(245, 242, 242);
+}
+
+
+.reservation .reservation-form .form{
+    height: 700px;
+    width: 800px;
+    /* background-color: rgb(116, 25, 25); */
+    margin-left: 70px;
+}
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-top: 18px;
+}
+    
+    .reservation .reservation-form .form button{
+    background: #ce1212;
+    color: #fff;
+    border: none;
+    border-radius: 80px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left:250px ;
+  
+   
+    }
+    textarea{
+        width: 91%;
+        padding: 15px 20px;
+        margin: 8px 0;
+        box-sizing: border-box; 
+    }
+
+    .footer{
+        height: 300px;
+        width: auto;
+        background-color: #000;
+       
+        display: flex;
+    }
+    .footer .address{
+        width: 200px;
+        height: 200px;
+        margin-left: 90px;
+        /* background-color: #ce1212; */
+        margin-top:20px;
+        color: #fff;
+    } 
+    .footer .reserve{
+        width: 200px;
+        height: 200px;
+        margin-left: 90px;
+        /* background-color: #ce1212; */
+        margin-top:20px;
+        color: #fff;
+    }
+    .footer .openhr{
+        width: 200px;
+        height: 200px;
+        margin-left: 90px;
+        /* background-color: #ce1212; */
+        margin-top:20px;
+        color: #fff;
+    }
+    .footer .followus{
+        width: 200px;
+        height: 200px;
+        margin-left: 90px;
+        /* background-color: #ce1212; */
+        margin-top:20px;
+        color: #fff;
+    }
